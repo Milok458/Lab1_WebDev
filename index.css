@@ -1,0 +1,38 @@
+.sect{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: cornflowerblue;
+    width: 49.7%;
+    display: flex;
+}
+
+h4{
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+#title{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+section{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: white;
+}
+
+@media only screen and (max-width: 1350px) {
+    .sect{
+        width: 100%;
+    }
+}
